@@ -145,3 +145,30 @@ body.addEventListener(
     },
     { passive: true }
 )
+
+var quoteIndex = 1;
+showSlides(quoteIndex);
+
+function plusSlides(n) {
+  showSlides(quoteIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(quoteIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var quotes = document.getElementsByClassName("quote");
+  var dots = document.getElementsByClassName("dot");
+  if (n > quotes.length) {quoteIndex = 1}
+    if (n < 1) {quoteIndex = quotes.length}
+    for (i = 0; i < quotes.length; i++) {
+        quotes[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    quotes[quoteIndex-1].style.display = "block";
+  dots[quoteIndex-1].className += " active";
+}
