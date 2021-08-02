@@ -228,8 +228,9 @@ img.logo{
 }
 
 .links{
-    flex-wrap: wrap;
+    margin:0px auto;
 }
+
 
 .fa-icon{
     font-size: 40px;
