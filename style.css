@@ -213,15 +213,11 @@ img.logo {
 }
 
 .links {
-    flex-wrap: wrap;
+    margin:0px auto;
     text-align: center;
 }
 
-.links .icon {
-    display: inline-flex;
-    width: 30%;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin:10px;
 }
 
 .links .icon i {
