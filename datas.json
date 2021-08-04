@@ -1,0 +1,81 @@
+{
+    "games": [
+        {
+            "title": "Color Merger",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Puzzle"],
+            "published": "2021.04",
+            "links": [
+                {
+                    "icon": "itch-io",
+                    "link": "https://kregames.itch.io/color-merger"
+                }, 
+                {
+                    "icon": "jam",
+                    "link" : "https://itch.io/jam/brackeys-5/rate/922201"
+                }
+            ]
+        },         
+        {
+            "title": "Takaduki's planet",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Simulation"],
+            "published": "2021.01"
+        }, 
+        {
+            "title": "Loop Fare Remake", 
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Racing"],
+            "published": "2020.11"
+        }, 
+        {
+            "title": "Loop Fare",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Racing"],
+            "published": "2020.10"
+        }, 
+        {
+            "title": "Childhood Rewind",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Racing"],
+            "published": "2020.08"
+        }, 
+        {
+            "title": "Mr Ficus",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Simulation"],
+            "published": "2020.04"
+        }, 
+        {
+            "title": "Hangman Platformer",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Platformer", "Crossword"],
+            "published": "2020.03"
+        }, 
+        {
+            "title": "Pothole Panic",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Management", "Strategy", "Simulation"],
+            "published": "2020.02",
+            "quotes": []
+
+        }, 
+        {
+            "title": "Escape from the Bank",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Puzzle"],
+            "published": "2019.04"
+        }, 
+        {
+            "title": "Dark Liquid Company",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Puzzle"],
+            "published": "2019.03"
+        },
+        {
+            "title": "One True Pairing",
+            "icon": "logos/dlc_mosaic.png",
+            "genres": ["Card Game"],
+            "published": "2019.02"
+        }
+]}
