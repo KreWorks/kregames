@@ -1,91 +1,45 @@
 /* The container of the sections */
-.container{
-  width:1200px;
-  display:flex;
-  flex-direction: row;
-  margin:10px auto;
+.container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
 }
 
-/* For the 3 columned sections */
-.grid-3{
-  display:inline-flex;
-  flex: 1;
-  margin: 0 5px;
-}
-.grid-3:first-child{
-  margin-left:0px;
-}
-.grid-3:last-child{
-  margin-right: 0px;
-}
-
-/* Font Awesome Icons */ 
-.fa-icon{
-  font-size: 30px;
-  background-color: #aaa;
-  border-radius: 50%;
-  padding:15px;
-}
-
-.box {
-  padding:20px; 
-  background-color:#d8d8d8;
-  border-radius:10px;
-}
-
-
-
-
-
-.card {
-  background-color: #fff;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 30px;
-    cursor: pointer;
-    background: var(--primary-color);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-}
-
-.btn-outline {
-    background-color: transparent;
-    border: 1px #fff solid;
-}
-
-.btn:hover {
-    transform: scale(0.98);
-}
-
-/* Font awesome icons */
+/* Font Awesome Icons */
 .fa-icon {
     font-size: 30px;
     background-color: #aaa;
     border-radius: 50%;
     padding: 15px;
-    margin: 10px;
 }
 
 /* Positioning and displaying */
+.grid-3 {
+    display: inline-flex;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.grid-3:first-child {
+    margin-left: 0px;
+}
+
+.grid-3:last-child {
+    margin-right: 0px;
+}
+
 .grid-3 h2 {
     background-color: #c7c7c7;
     margin: -15px -15px 0 -15px;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
 }
-.grid-3:first-child {
-    margin-left: 0px;
-}
-.grid-3:last-child {
-    margin-right: 0px;
+
+.box {
+    padding: 20px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
 }
 
 .center-holder {

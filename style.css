@@ -92,7 +92,6 @@ ul.ticks li.active img {
     padding: 10px 20px;
 }
 
-
 /* Header part*/
 .header {
     margin-top: calc(
@@ -213,28 +212,13 @@ img.logo {
 .links {
     margin: 0px auto;
     text-align: center;
-    text-align: center;
     padding: 0px 10px;
 }
- .links a{
-     margin:0px 10px;
- }
 
-.links .icon i {
-    text-align: center;
+.links a {
+    margin: 0px 20px;
 }
 
-
-
-
-
-
-/* About */
-img#avatar {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
 /* Experiences*/
 .timeline {
     border-left: 3px solid purple;
