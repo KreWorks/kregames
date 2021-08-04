@@ -92,6 +92,7 @@ ul.ticks li.active img {
     padding: 10px 20px;
 }
 
+
 /* Header part*/
 .header {
     margin-top: calc(
@@ -120,17 +121,14 @@ img.logo {
     margin: 0 20px 0 0;
     background-color: #e4e4e4;
     border-radius: 10px;
+    cursor: pointer;
 }
-
 /* Quotes */
 .quotes {
     position: relative;
-    background: #f1f1f1f1;
-    border-radius: 10px;
 }
 .quote {
     display: none;
-    padding: 20px;
     text-align: center;
     margin: 0px auto;
 }
@@ -215,11 +213,21 @@ img.logo {
 .links {
     margin: 0px auto;
     text-align: center;
+    text-align: center;
+    padding: 0px 10px;
 }
+ .links a{
+     margin:0px 10px;
+ }
 
 .links .icon i {
     text-align: center;
 }
+
+
+
+
+
 
 /* About */
 img#avatar {
