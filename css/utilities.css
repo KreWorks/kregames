@@ -26,6 +26,7 @@
 /* For the 3 columned sections */
 .grid-3 {
   display: inline-flex;
+  flex-direction: column;
   flex: 1;
   margin: 0 5px;
 }
@@ -38,12 +39,18 @@
 
 .grid-3 h2 {
   background-color: #c7c7c7;
-  margin: -15px -15px 0 -15px;
-  padding: 10px;
+  margin: 5px 5px 0 5px;
+  padding: 5px;
   border-radius: 10px 10px 0px 0px;
+  text-align: center;
 }
+
+.grid-3 p {
+  padding: 10px 20px;
+  text-align: justify;
+}
+
 .box {
-  padding: 20px;
   background-color: #d8d8d8;
   border-radius: 10px;
 }

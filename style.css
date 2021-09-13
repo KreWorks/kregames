@@ -203,14 +203,10 @@ img.logo {
 }
 
 /* Description */
-.description {
-  text-align: justify;
-}
-
 .links {
   margin: 0px auto;
   text-align: center;
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 .links a {
