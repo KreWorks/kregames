@@ -1,61 +1,104 @@
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    color: #bbb;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    padding-left: 10px;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+    left: 0;
+    padding-left: 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.prev span.arrow,
+.next span.arrow {
+    width: 30px;
+    height: 0;
+    position: absolute;
+    top: calc(50%);
+}
+
 /* The container of the sections */
 .container {
-  width: 1200px;
-  display: flex;
-  flex-direction: row;
-  margin: 10px auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
 }
 
 /* Font Awesome Icons */
 .fa-icon {
-  font-size: 30px;
-  background-color: #aaa;
-  border-radius: 50%;
-  padding: 15px;
+    font-size: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 /* Font Awesome Icons */
 .fa-icon {
-  font-size: 30px;
-  background-color: #aaa;
-  border-radius: 50%;
-  padding: 15px;
+    font-size: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 /* Positioning and displaying */
 /* For the 3 columned sections */
 .grid-3 {
-  display: inline-flex;
-  flex-direction: column;
-  flex: 1;
-  margin: 0 5px;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 5px;
 }
 .grid-3:first-child {
-  margin-left: 0px;
+    margin-left: 0px;
 }
 .grid-3:last-child {
-  margin-right: 0px;
+    margin-right: 0px;
 }
 
 .grid-3 h2 {
-  background-color: #c7c7c7;
-  margin: 5px 5px 0 5px;
-  padding: 5px;
-  border-radius: 10px 10px 0px 0px;
-  text-align: center;
+    background-color: #c7c7c7;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
 }
 
 .grid-3 p {
-  padding: 10px 20px;
-  text-align: justify;
+    padding: 10px 20px;
+    text-align: justify;
 }
 
 .box {
-  background-color: #d8d8d8;
-  border-radius: 10px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
 }
 
 .center-holder {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
